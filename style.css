@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand',!important;
+    list-style-type: none;
+}
+body{
+    background-color: wheat ,!important;
+}
+.cards{
+    justify-content: space-around;
+    display: flex;
+   
+}
+.card-item{
+    border-radius: 10px;
+    width: 30%;
+    height: max-content;
+    padding: 30px;
+    background-color: white;
+    justify-content: center;
+   
+}
+
+.card-imgs{
+    width: 120px;
+    height: 120px;
+    border: 3px solid purple;
+    border-radius: 50%;
+}
+
+
+
+#h1{ 
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 70px;
+    padding-top: 100px;
+}
+#h3{
+    font-family: 'Quicksand';
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    opacity: 0.5;
+}
+
+#h4{
+    font-family: 'Quicksand';
+    text-align: end;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.p2{
+  letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 900px) {
+.cards{
+    display: block;
+}
+.card-item{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: ;
+}
+}
+@media screen and (max-width: 768px) {
+.cards{
+    display: block;
+}
+.card-item{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.card-item 
+}
+
+
+
+
+
+/*gece modu*/
+/*gece modu site*/
+.night-mode,
+.night-mode body {
+  background-color: #272727 !important;
+ 
+}
+
+.night-mode body #h1,#h3{
+    color:wheat;
+}
+.night-mode a {
+  color: #e5e5e5;
+}
+
+/*gece modu ikon*/
+.theme-mode {
+  margin-right: 20px;
+  display: block;
+  float: left;
+}
+.theme-mode:hover,
+.theme-mode:focus,
+.theme-mode:active {
+  transform: rotate(180deg);
+  transition-duration: 1.2s;
+}
+.theme-mode a,
+.theme-mode a:hover {
+  text-decoration: none;
+}
+.theme-mode span {
+  display: block;
+}
+.theme-mode i {
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+/*gece modu*/
